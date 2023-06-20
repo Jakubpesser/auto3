@@ -44,13 +44,9 @@ basic.forever(function () {
 })
 radio.onReceivedValue(function (name: string, value: number) {
     if (name == "btnA") {
-        btnB == false
-        btnLOGO == false
         btnA = (value == 1)
     }
     if (name == "btnB") {
-        btnA == false
-        btnLOGO == false
         btnB = (value == 1)
     }
     if (name == "btnLOGO") {
